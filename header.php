@@ -60,20 +60,27 @@
                             <button class="btn btn-primary dropdown-toggle btn-block" type="button" id="button-prisijunk"
                                 data-toggle="dropdown">Vartotojas</button>
                             <div class="dropdown-menu dropdown-menu-right">
-                                <form class="px-2 py-2">
+
+                                <form action="includes/login.inc.php" methode="post" class="px-2 py-2">
                                     <p class="dropdown-header">Prisijunk</p>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Slapyvardis">
+                                        <input type="text" name="authuser" class="form-control" placeholder="Slapyvardis">
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" class="form-control" placeholder="Slaptažodis">
+
+                                        <input type="password" name="authpass" class="form-control" placeholder="Slaptažodis">
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-block">Pirmyn </button>
+                                    <button type="submit" name="authlogin" class="btn btn-primary btn-block">Pirmyn
+                                    </button>
                                 </form>
                                 <a class="dropdown-item" href="#">Pamiršai slaptažodį? </a>
-                                <a class="dropdown-item" href="#">Registruokis! </a>
+                                <a class="dropdown-item" href="signup.php">Registruokis! </a>
+
                             </div>
+
                         </div>
+                        <form action="includes/logout.inc.php"></form>
+                        <button type="submit" name="authlogout" class="btn btn-primary">Išeiti </button>
                 </div>
             </div>
 
