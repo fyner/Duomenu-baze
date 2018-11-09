@@ -61,7 +61,7 @@
                                 data-toggle="dropdown">Vartotojas</button>
                             <div class="dropdown-menu dropdown-menu-right">
                                 <form class="px-2 py-2">
-                                    <p class="loginas">Prisijunk</p>
+                                    <p class="dropdown-header">Prisijunk</p>
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Slapyvardis">
                                     </div>
@@ -70,10 +70,8 @@
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-block">Pirmyn </button>
                                 </form>
-                                <center>
-                                    <a class="dropdown-item" href="#">Pamiršai slaptažodį? </a>
-                                    <a class="dropdown-item" href="#">Registruokis! </a>
-                                </center>
+                                <a class="dropdown-item" href="#">Pamiršai slaptažodį? </a>
+                                <a class="dropdown-item" href="#">Registruokis! </a>
                             </div>
                         </div>
                 </div>
