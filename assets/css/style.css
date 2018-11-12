@@ -7,8 +7,6 @@ body {
 
 .footer-stilius {
     position: static;
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: black;
     color: white;
@@ -26,12 +24,16 @@ body {
 .dropdown-header {
     text-align: center;
     cursor: default;
-    -webkit-user-select: none;    /* Safari */
-    -moz-user-select: none;    /* Firefox */
-    -ms-user-select: none;    /* IE10+/Edge */
-    user-select: none;    /* Standard */
 }
 
 .dropdown-item {
+    text-align: center;
+}
+.signup-forma{
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+.tekstascentre{
     text-align: center;
 }
